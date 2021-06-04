@@ -1,3 +1,4 @@
-10.times do |i|
-  puts i + 1
+colors = ["あか", "あお", "きいろ"]
+colors.each do |color|
+  puts "色: #{color}"
 end
